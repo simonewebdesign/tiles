@@ -11,6 +11,4 @@ requirejs({
 
 });
 
-require(['app'], function() {
-  console.log("callback: app has finished its execution.");
-});
+require(['app']);
