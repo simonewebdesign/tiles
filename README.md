@@ -6,6 +6,7 @@ Its goal is to become a standard boilerplate code to jumpstart your canvas appli
 
 Directory layout is the following:
 
+```
 index.html
 scripts/
     app.js
@@ -31,3 +32,6 @@ assets/
         sprites/
             sprite1.gif
             sprite2.gif
+```
+
+This code is licensed under the [WTFPL license](http://www.wtfpl.net/).
