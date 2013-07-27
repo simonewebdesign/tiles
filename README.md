@@ -6,6 +6,7 @@ Its goal is to become a standard boilerplate code to jumpstart your canvas appli
 
 Directory layout is the following:
 
+```
 index.html
 scripts/
     app.js
@@ -16,7 +17,7 @@ scripts/
         tile.js
         sprite.js
     lib/
-        backbone.js    
+        backbone.js
         jquery.js
         underscore.js
     helper/
