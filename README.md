@@ -32,3 +32,6 @@ assets/
         sprites/
             sprite1.gif
             sprite2.gif
+```
+
+This code is licensed under the [WTFPL license](http://www.wtfpl.net/).
