@@ -36,4 +36,7 @@ assets/
             sprite2.gif
 ```
 
+By following the [convention over configuration](http://en.wikipedia.org/wiki/Convention_over_configuration) design paradigm, you don't need to configure RequireJS: it is already optimized for you. Just start coding!
+
+--
 This code is licensed under the [WTFPL license](http://www.wtfpl.net/).

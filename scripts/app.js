@@ -2,38 +2,22 @@ define([
   'jquery', 
   'foo', 
   'app/tile', 
-  'app/specificTile', 
+  'app/specificTile',
   'app/verySpecificTile'
-  ], function($, foo, tile, specificTile, verySpecificTile) {
-
-  //console.log("app module and its dependencies are loaded");
-
-  //console.log("Even jquery is loaded! " + $);
-
-  //console.debug(foo);
-
-  //console.debug(tile);
+], function($, foo, tile, specificTile, verySpecificTile) {
 
   var aTile = new tile();
-  //console.log(aTile);
-
-  aTile.setBackground("nuovo background");
-
-  //console.log(aTile);
+  aTile.setBackground('blue');
 
   var aSpecificTile = new specificTile();
-
   aSpecificTile.setColor = 3;
-  //console.log(aSpecificTile);
   aSpecificTile.setBackground('red');
-  //console.log(aSpecificTile);
-  //console.log(aSpecificTile.background);
 
   var aVerySpecificTile = new verySpecificTile();
+  aVerySpecificTile.setColor('white');
 
-  aVerySpecificTile.setColor("whiteCollar");
 
-  console.log(aVerySpecificTile);
+  // Testing inheritance...
 
   console.log(aTile instanceof specificTile);
   console.log("Expected: false");
