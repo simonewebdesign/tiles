@@ -1,10 +1,12 @@
 # Tiles
 
-An application based on the HTML5's canvas.
+A boilerplate for HTML5 canvas applications, based on RequireJS.
 
 Its goal is to become a standard boilerplate code to jumpstart your canvas application. It is based on [RequireJS](http://requirejs.org/) (a Javascript module loader), so it has a nice modular structure. This means that every script will be defined as a module and will return something (an object, a function or just a primitive value).
 
-Directory layout is the following:
+By the way, you can also return a bunch of variables that will be loaded in the current scope: it's entirely your choice.
+
+A sample directory layout is the following:
 
 ```
 index.html
